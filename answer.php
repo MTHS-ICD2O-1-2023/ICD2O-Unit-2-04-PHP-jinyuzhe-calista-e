@@ -25,7 +25,7 @@
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./image/area_of_trinagle.png" alt="laptop image" width="250" />
+          <img src="./images/area_of_trinagle.png" alt="laptop image" width="250" />
         </div>
         <div class="page-content-php">
           <div id="user-info">
