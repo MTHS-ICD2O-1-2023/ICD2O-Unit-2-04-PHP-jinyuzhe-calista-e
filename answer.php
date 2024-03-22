@@ -30,14 +30,14 @@
         <div class="page-content-php">
           <div id="user-info">
             <?php
-            $baseOfRectangle = $_POST["base-of-rectangle"];
-            $heightOfRectangle = $_POST["height-of-rectangle"];
+            $baseOfTriangle = $_POST["base-of-triangle"];
+            $heightOfTriangle = $_POST["height-of-triangle"];
 
             // process
-            $area = $baseOfRectangle * $heightOfRectangle * 0.5;
+            $area = $baseOfTriangle * $heightOfTriangle * 0.5;
 
             // output
-            echo "If a triangle has base = " . $baseOfRectangle . " cm and the height = " . $heightOfRectangle . " cm:";
+            echo "If a triangle has base = " . $baseOfTriangle . " cm and the height = " . $heightOfTriangle . " cm:";
             echo "<br />";
             echo "<br />";
             echo "The area of the triangle is " . $area . " cm².";
